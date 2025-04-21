@@ -133,5 +133,5 @@ function handler.grant(player: Player, badgeId: number): ()
 end
 
 handler.__index = handler
-return setmetatable({}, handler)
+return handler
 -- sorry karen u get the handler not the manager
